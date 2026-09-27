@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Arian Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <span>|</span>
+    <a href="#about">About</a>
+    <span>|</span>
+    <a href="#skills">Skills</a>
+    <span>|</span>
+    <a href="#projects">Projects</a>
+    <span>|</span>
+    <a href="#contact">Contact</a>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+
+    <div class="profile">
+      <img src="PXL original.jpg" alt="Arian Hasan">
+    </div>
+
+    <h1>Arian Hasan</h1>
+
+    <p>Department of CSE</p>
+
+    <p>Institute of Science and Technology</p>
+
+    <p class="hero-text">
+      Learning Web Development and Building Creative Projects.
+    </p>
+
+    <a href="#about" class="hero-button">About Me</a>
+
+  </div>
+
+
+  <!-- About Me -->
+  <div class="about" id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      I am Arian Hasan, a CSE student at Institute of Science and Technology.
+      I am interested in web development, programming and graphics design.
+      I enjoy learning new technologies and building creative projects.
+    </p>
+
+  </div>
+
+
+  <!-- Skills -->
+  <div class="skills" id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skill-box">
+      <p>HTML</p>
+    </div>
+
+    <div class="skill-box">
+      <p>CSS</p>
+    </div>
+
+    <div class="skill-box">
+      <p>Photoshop</p>
+    </div>
+
+    <div class="skill-box">
+      <p>Illustrator</p>
+    </div>
+
+    <div class="skill-box">
+      <p>Graphics Design</p>
+    </div>
+
+  </div>
+
+
+  <!-- Projects -->
+<!-- Projects -->
+<div class="projects" id="projects">
+
+  <h2>My Projects</h2>
+
+  <div class="project-box">
+
+    <img src="project1.jpg" alt="Portfolio Website">
+
+    <h3>Portfolio Website</h3>
+
+    <p>
+      A personal portfolio website designed and developed
+      using HTML and CSS.
+    </p>
+
+    <a href="#" class="project-button">View Project</a>
+
+  </div>
+
+
+  <div class="project-box">
+
+    <img src="project2.jpg" alt="Web Design Project">
+
+    <h3>Web Design Project</h3>
+
+    <p>
+      A beginner web development project created to practice
+      HTML and CSS skills.
+    </p>
+
+    <a href="#" class="project-button">View Project</a>
+
+  </div>
+
+</div>
+
+
+  <!-- Contact -->
+  <!-- Contact -->
+<div class="contact" id="contact">
+
+  <h2>Contact Me</h2>
+
+  <p>Email: arian@example.com</p>
+
+  <form>
+
+    <label for="name">Your Name</label>
+    <input
+      type="text"
+      id="name"
+      placeholder="Enter your name"
+      required
+    >
+
+    <label for="email">Your Email</label>
+    <input
+      type="email"
+      id="email"
+      placeholder="Enter your email"
+      required
+    >
+
+    <label for="message">Your Message</label>
+    <textarea
+      id="message"
+      placeholder="Write your message..."
+      required
+    ></textarea>
+
+    <button type="submit">Send Message</button>
+
+  </form>
+
+</div>
+
+
+  <!-- Social Media -->
+  <div class="social">
+
+    <h2>Follow Me</h2>
+
+    <a href="https://www.facebook.com/arian.hasan.946602">
+      Facebook
+    </a>
+
+    <a href="https://github.com/WhiteShadow586/">
+      GitHub
+    </a>
+
+  </div>
+
+
+  <!-- Footer -->
+ 
+  <!-- তোমার পুরো website -->
+
+  <footer>
+    <p>© 2026 Arian Hasan. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript এখানে -->
+ <script>
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    alert("Thank you! Your message has been received.");
+
+    form.reset();
+  });
+</script>
+
+<!-- Back to Top Button -->
+<a href="#home" class="back-to-top">↑</a>
+
+</body>
+</html>
